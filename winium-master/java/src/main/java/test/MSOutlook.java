@@ -1,6 +1,7 @@
 package test;
 
 import java.io.IOException;
+import java.net.SocketException;
 
 import org.openqa.selenium.By;
 
@@ -15,9 +16,10 @@ public class MSOutlook extends Allocator {
 		driver.findElement(By.name("Exit")).click();
 	}
 
-	public static void main(String args[]) throws InterruptedException, IOException {
+	public static void main(String args[]) throws InterruptedException, IOException, SocketException {
 		MSOutlook c = new MSOutlook();
 		c.openOutlook();
+		System.out.println("Execution has been successful");
 	}
 
 }

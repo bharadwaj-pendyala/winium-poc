@@ -12,8 +12,8 @@ public class Allocator {
 	protected WiniumDriver driver;
 	String calcPath = "C:\\Windows\\System32\\calc.exe";
 	String winiumDriverPath = "F:\\Winium\\Winium.Desktop.Driver.exe";
-	String outlookPath = "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\OUTLOOK.exe";
-	String excelPath = "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\EXCEL.exe";
+	String outlookPath = "C:\\Program Files\\Microsoft Office 15\\root\\office15\\OUTLOOK.exe";
+	String excelPath = "C:\\Program Files\\Microsoft Office 15\\root\\office15\\EXCEL.exe";
 
 	public WiniumDriver setupEnvironment(String App) throws IOException {
 		DesktopOptions options = new DesktopOptions(); // Initiate Winium Desktop Options
